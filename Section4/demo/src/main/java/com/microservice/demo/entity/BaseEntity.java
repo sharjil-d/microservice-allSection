@@ -1,5 +1,6 @@
 package com.microservice.demo.entity;
 
+
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
@@ -15,25 +16,23 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import java.time.LocalDateTime;
 
 @MappedSuperclass
-@Getter
-@Setter
-@ToString
 @EntityListeners(AuditingEntityListener.class)
+@Getter @Setter @ToString
 public class BaseEntity {
 
     @CreatedDate
-    @Column(updatable=false)
+    @Column(updatable = false)
     private LocalDateTime createdAt;
 
     @CreatedBy
-    @Column(updatable=false)
+    @Column(updatable = false)
     private String createdBy;
 
     @LastModifiedDate
-    @Column(insertable =false)
+    @Column(insertable = false)
     private LocalDateTime updatedAt;
 
     @LastModifiedBy
-    @Column(insertable =false)
+    @Column(insertable = false)
     private String updatedBy;
 }
