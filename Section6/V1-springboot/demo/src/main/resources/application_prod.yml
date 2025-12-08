@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+build:
+  version: "1.0"
+
+accounts:
+  message: "welcome to sharjil prod"
+  contactDetails:
+    name: "jil@gmail.com"
+  onCallSupport:
+    -(111) 111-222
