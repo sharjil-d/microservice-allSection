@@ -1,0 +1,9 @@
+build:
+  version: "3.0"
+
+loans:
+  message: "welcome to sharjil loans"
+  contactDetails:
+    name: "jil@gmail.com"
+  onCallSupport:
+    -(111) 111-222
