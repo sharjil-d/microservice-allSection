@@ -1,0 +1,9 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "welcome to sharjil"
+  contactDetails:
+    name: "jil@gmail.com"
+  onCallSupport:
+    -(111) 111-222

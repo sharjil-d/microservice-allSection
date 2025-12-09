@@ -1,0 +1,9 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "welcome to cards sharjil prod"
+  contactDetails:
+    name: "jil@gmail.com"
+  onCallSupport:
+    -(111) 111-222
